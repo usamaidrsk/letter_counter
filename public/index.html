@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>analysetxt</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/src/js/main.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h2>ENTER ANY TEXT TO ANALYZ</h2>
+        <p></p>
+    </header>
+    <section>
+        <form >
+            <fieldset>
+                <legend>Only Alphabets Upper Or Lowercase Detected</legend>
+                <textarea name="textsec" 
+                          id="textsec" 
+                          cols="100" 
+                          rows="10" 
+                          spellcheck="false"
+                          autofocus
+                          >
+                </textarea>
+            <div>
+                <input type="submit" class='analyz' value="ANALYZ">
+                <input type="submit" id="refresh" value="REFRESH">
+            </div>
+            </fieldset> 
+        </form>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <th colspan="25">details from analysis</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id='uppcase' colspan="25">UpperCase Letters</th>
+                </tr>
+                <tr id="capsltr"></tr>
+                <tr id="uppereslt"></tr>
+                <tr>
+                    <th id='lwcase' colspan="25">LowerCase Letters</th>
+                </tr>
+                <tr id="smalltr"></tr>
+                <tr id="lowereslt"></tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+</body>
+<script>
+
+</script>
+</html>

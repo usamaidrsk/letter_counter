@@ -1,0 +1,54 @@
+#container{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+header{
+    width: 720px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    display: none;
+    width: 720px;
+    font-size: 1em;
+}
+td{
+    width: 30px;
+    text-align: center;
+}
+th{
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    color: green;
+}
+legend{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset{
+    width: 720px;
+}
+textarea{
+    font-size: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+#capsltr,#smalltr{
+    border-bottom: rgb(143, 6, 6);
+}
+#A,#C,#E,#G,#I,#K,#M,#O,#Q,#S,#U,#W,#Y{
+    color: rgb(4, 8, 245);
+}
+#B,#D,#F,#H,#J,#L,#N,#P,#R,#T,#V,#X,#Z{
+    color: rgb(252, 117, 7);
+}
+.A,.C,.E,.G,.I,.K,.M,.O,.Q,.S,.U,.W,.Y{
+    color: rgb(4, 8, 245);
+}
+.B,.D,.F,.H,.J,.L,.N,.P,.R,.T,.V,.X,.Z{
+    color: rgb(252, 117, 7);
+}
